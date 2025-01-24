@@ -29,10 +29,10 @@ passenger_count = option
 
 
 "In the following, enter the pickoff and dropoff coordinates. Values must be between 40 and 41 for latitude and -73 and -75 for longitude"
-pickup_longitude = st.number_input('Pickup longitude: ', key = 1, min_value = -75, max_value = -73, value = -74, format = "%0.6f")
-pickup_latitude = st.number_input('Pickup latitude: ',  key = 2, min_value = 40, max_value = 41, value = 40.5, format = "%0.6f")
-dropoff_longitude = st.number_input('Dropoff longitude',  key = 3, min_value = -75, max_value = -73, value = -74, format = "%0.6f")
-dropoff_latitude = st.number_input('Dropoff latitude', key = 4, min_value = 40, max_value = 41, value = 40.5, format = "%0.6f")
+pickup_longitude = st.number_input('Pickup longitude: ', key = 1, min_value = -75.000000, max_value = -73.000000, value = -74.000000, format = "%0.6f")
+pickup_latitude = st.number_input('Pickup latitude: ',  key = 2, min_value = 40.000000, max_value = 41.000000, value = 40.500000, format = "%0.6f")
+dropoff_longitude = st.number_input('Dropoff longitude',  key = 3, min_value = -75.000000, max_value = -73.000000, value = -74.000000, format = "%0.6f")
+dropoff_latitude = st.number_input('Dropoff latitude', key = 4, min_value = 40.000000, max_value = 41.000000, value = 40.500000, format = "%0.6f")
 
 
 
